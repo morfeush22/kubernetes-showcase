@@ -5,7 +5,7 @@ To use files in repository, following requirements must be fulfilled:
 3. [Helm](https://github.com/kubernetes/helm/blob/master/docs/install.md)
 
 ## To configure cluster:
-1. `make start-minikube CIDR=<CIDR>`, host must be able to connect to minikube VM on this network! (Default "192.168.99.0/24")
+1. `make start-minikube CIDR=<CIDR>`, host must be able to connect to minikube VM on this network! (Default 192.168.99.0/24)
 2. `helm init`
 3. `make build`
 
